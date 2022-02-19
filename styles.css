@@ -83,6 +83,23 @@ html{
     transform: scale(1.1);
 }
 
+.btn_2{
+    display: inline-block;
+    padding: .5em 1.5em;
+    background:rgb(68, 172, 204) ;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: transform 200ms ease-in-out ;
+}
+.btn_2:hover{
+    transform: scale(1.1);
+}
+
 /* typography */
 
 h1,
@@ -442,7 +459,10 @@ header{
 
 .price-compare-sceenshot{
     box-shadow: 0.25em 0.25em 0.75em rgb(56, 55, 55), 0.150em 0.150em 0.50em black;
+   
 }
+
 .price-compare-screenshot-link{
     cursor: pointer;
+    
 }
